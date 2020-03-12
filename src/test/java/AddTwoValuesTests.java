@@ -62,7 +62,7 @@ public class AddTwoValuesTests {
 
     @Test
     public void testDivisionByZero() {
-        String result = "/ by zer";
+        String result = "/ by zerod";
         try {
             calc.division(positiveValue_1, 0);
             Assert.fail("No any exception");
