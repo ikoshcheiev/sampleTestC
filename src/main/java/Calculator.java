@@ -20,6 +20,23 @@ public class Calculator {
     //TODO
     //add methods for multiply, division, subtraction, square root, x^2
 
+    public double division(int a, int b) {
+        return (double) (a / b);
+    }
+
+    public int subtraction(int a, int b) {
+        return a - b;
+    }
+
+    public double squareRoot(double a) {
+
+        return Math.sqrt(a);
+    }
+
+    public double squaredNumber(double a) {
+
+        return Math.pow(a, 2);
+    }
 }
 
 
