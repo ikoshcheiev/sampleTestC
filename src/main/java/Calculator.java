@@ -21,7 +21,8 @@ public class Calculator {
     //add methods for multiply, division, subtraction, square root, x^2
 
     public double division(int a, int b) {
-        return (double) (a / b);
+        if(b == 0) return (double) (a / b);
+        else return (double) a / b;
     }
 
     public int subtraction(int a, int b) {

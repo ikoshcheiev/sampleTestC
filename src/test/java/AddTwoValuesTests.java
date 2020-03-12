@@ -27,31 +27,31 @@ public class AddTwoValuesTests {
     @Test
     public void testAddTwoPositiveValues() {
         int result = 12;
-        assertEquals(String.format("%d + %d must be %d", positiveValue_1, positiveValue_2), result, calc.add(positiveValue_1, positiveValue_2));
+        assertEquals(String.format("%s + %s must be %s", positiveValue_1, positiveValue_2, result), result, calc.add(positiveValue_1, positiveValue_2));
     }
 
     @Test
     public void testAddTwoNegativeValues() {
         int result = -15;
-        assertEquals(String.format("%d + %d must be %d", negativeValue_1, negativeValue_2), result, calc.add(negativeValue_1, negativeValue_2));
+        assertEquals(String.format("%s + %s must be %s", negativeValue_1, negativeValue_2, result), result, calc.add(negativeValue_1, negativeValue_2));
     }
 
     @Test
     public void testSubdivisionTwoValues() {
         int result = -5;
-        assertEquals(String.format("%d - %d must be %d", negativeValue_1, negativeValue_2, result), result, calc.subtraction(negativeValue_1, negativeValue_2));
+        assertEquals(String.format("%s - %s must be %s", negativeValue_1, negativeValue_2, result), result, calc.subtraction(negativeValue_1, negativeValue_2));
     }
 
     @Test
     public void testSquareRoot() {
         double result = 3.0;
-        assertEquals(String.format("square root of %d must be %d", positiveValue_1), result, calc.squareRoot(positiveValue_1));
+        assertEquals(String.format("square root of %s must be %s", positiveValue_1, result), result, calc.squareRoot(positiveValue_1));
     }
 
     @Test
     public void testSquaredNumber() {
         double result = 81.0;
-        assertEquals(String.format("%d^2 must be %d", positiveValue_1, result), result, calc.squaredNumber(positiveValue_1));
+        assertEquals(String.format("%s ^2 must be %s", positiveValue_1, result), result, calc.squaredNumber(positiveValue_1));
     }
 
     @Test
