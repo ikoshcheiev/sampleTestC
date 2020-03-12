@@ -57,7 +57,6 @@ public class AddTwoValuesTests {
     @Test
     public void testDivisionTwoValues() {
         double result = 2.5;
-        
         assertEquals(String.format("%s must be %s", positiveValue_1, result), result, calc.division(5, 2));
     }
 
